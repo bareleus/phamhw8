@@ -1,16 +1,15 @@
-#include<iostream>
 #include<string>
-#include<sstream>
 #include "bankAccount.h"
 using namespace std;
 
+// Constructor
 BankAccount::BankAccount(string n, float bal){
-	name = n;
+	customerName = n;
 	balance = bal;
 }
 
 void BankAccount::setName(string n){
-	name = n;
+	customerName = n;
 }
 
 void BankAccount::setBalance(float bal){
@@ -18,7 +17,7 @@ void BankAccount::setBalance(float bal){
 }
 
 string BankAccount::getName(){
-	return name;
+	return customerName;
 }
 
 float BankAccount::getBalance(){

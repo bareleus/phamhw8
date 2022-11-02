@@ -5,7 +5,7 @@ using namespace std;
 
 class BankAccount {
 	private:
-		string name;
+		string customerName;
 		float balance;
 		void setName(string n);
 		void setBalance(float bal);

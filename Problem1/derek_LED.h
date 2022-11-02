@@ -2,10 +2,10 @@
 *    simple OOP  struture for the Exploring BeagleBone book
 *
 *    This program uses all four LEDS and can be executed in three ways:
-*         makeLEDs on
-*         makeLEDs off
-*         makeLEDs flash  (flash at time delay intervals)
-*         makeLEDs status (get the trigger status)
+*         derek_LED on
+*         derek_LED off
+*         derek_LED flash  (flash at time delay intervals)
+*         derek_LED status (get the trigger status)
 *
 * Written by Derek Molloy for the book "Exploring BeagleBone: Tools and 
 * Techniques for Building with Embedded Linux" by John Wiley & Sons, 2014
